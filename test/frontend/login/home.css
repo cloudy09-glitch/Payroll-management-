@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins" , sans-serif;
+}
+
+body{
+    background: linear-gradient(90deg, #695CEF, #FFABAB);
+    margin-bottom: 1000px;
+     
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row; 
+    text-align: center; 
+   
+    position: relative;
+}
+
+.main h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px; 
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.main h1 img {
+    width: 40px;
+    margin-left: 10px; 
+    position: relative;
+    bottom: -3px; 
+    
+}
+
+.main .logout-button button {
+    position: absolute; 
+    right: 0; 
+    top: 0; 
+    
+    margin-top: 0;
+    font-size: 15px;
+    background-color: #695CEF;
+    /* border: solid 2px rgb(193, 39, 147); */
+    border: none;
+    
+    outline: none;
+    cursor: pointer;
+    
+    padding: 5px 10px 5px 10px;
+    transition: all 0.3s ease-out; /* Adding smooth transitions for all properties */
+
+}
+
+.main .logout-button button:hover {
+    background-color: rgb(244, 83, 50);
+    transform: scale(1.1);/* Adding scaling and rotation for a dynamic effect */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Adding a shadow for a more interactive look */
+}
+
+
+.aboutSite{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1000px;
+    flex-direction: row;
+}
+
+.aboutSite{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-direction: row;
+    max-width: 100%; /* Add this property */
+    overflow-x: hidden; /* Add this property */
+}
+
+.aboutSite .pic1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50%; /* Add this property */
+}
+
+.aboutSite .pic1 img {
+    width: 100%; /* Change this property */
+    height: auto;
+    transition: transform 0.8s ease-out, opacity 0.5s ease-out;
+    justify-content: left;
+    flex: 1;
+}
+
+.aboutSite .pic1 p{
+    width: 100%;
+    transition: transform 0.8s ease-out, opacity 0.5s ease-out;
+    justify-content: right;
+    position: absolute;
+
+}
+
+.hidden {
+    transform: translateX(-100%);
+    opacity: 0; 
+}
+
+.aboutSite .pic1 p {
+    transform: translateY(0); 
+    margin-top: 550px; 
+    font-size: 25px;
+    text-align: center;
+    transition: transform 0.8s ease-out, opacity 0.5s ease-out; 
+}
+
+.hidden-para {
+    transform: translateY(-100%); 
+    opacity: 0; 
+}
+
+
+
+
+

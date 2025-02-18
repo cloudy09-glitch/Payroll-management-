@@ -1,0 +1,55 @@
+{
+    "employee": {
+      "name": "John Doe",
+      "id": 101,
+      "position": "Software Engineer",
+      "department": "IT",
+      "data": [
+        {"date": "01-01-2025", "ingoing_time": "09:00 AM", "outgoing_time": "05:00 PM", "average_daily_hours": 8, "length_of_unpaid_breaks": "1 hour", "length_of_paid_breaks": "30 minutes", "salary_amount": 70000},
+        {"date": "02-01-2025", "ingoing_time": "09:10 AM", "outgoing_time": "05:10 PM", "average_daily_hours": 8, "length_of_unpaid_breaks": "1 hour", "length_of_paid_breaks": "30 minutes", "salary_amount": 70000},
+        {"date": "03-01-2025", "ingoing_time": "09:15 AM", "outgoing_time": "05:15 PM", "average_daily_hours": 8, "length_of_unpaid_breaks": "1 hour", "length_of_paid_breaks": "30 minutes", "salary_amount": 70000},
+        {"date": "04-01-2025", "ingoing_time": "09:05 AM", "outgoing_time": "05:05 PM", "average_daily_hours": 8, "length_of_unpaid_breaks": "1 hour", "length_of_paid_breaks": "30 minutes", "salary_amount": 70000},
+        {"date": "05-01-2025", "ingoing_time": "09:00 AM", "outgoing_time": "05:00 PM", "average_daily_hours": 8, "length_of_unpaid_breaks": "1 hour", "length_of_paid_breaks": "30 minutes", "salary_amount": 70000},
+        {"date": "06-01-2025", "ingoing_time": "09:12 AM", "outgoing_time": "05:12 PM", "average_daily_hours": 8, "length_of_unpaid_breaks": "1 hour", "length_of_paid_breaks": "30 minutes", "salary_amount": 70000},
+        {"date": "07-01-2025", "ingoing_time": "09:08 AM", "outgoing_time": "05:08 PM", "average_daily_hours": 8, "length_of_unpaid_breaks": "1 hour", "length_of_paid_breaks": "30 minutes", "salary_amount": 70000},
+        {"date": "08-01-2025", "ingoing_time": "09:03 AM", "outgoing_time": "05:03 PM", "average_daily_hours": 8, "length_of_unpaid_breaks": "1 hour", "length_of_paid_breaks": "30 minutes", "salary_amount": 70000},
+        {"date": "09-01-2025", "ingoing_time": "09:07 AM", "outgoing_time": "05:07 PM", "average_daily_hours": 8, "length_of_unpaid_breaks": "1 hour", "length_of_paid_breaks": "30 minutes", "salary_amount": 70000},
+        {"date": "10-01-2025", "ingoing_time": "09:02 AM", "outgoing_time": "05:02 PM", "average_daily_hours": 8, "length_of_unpaid_breaks": "1 hour", "length_of_paid_breaks": "30 minutes", "salary_amount": 70000},
+        {"date": "11-01-2025", "ingoing_time": "09:06 AM", "outgoing_time": "05:06 PM", "average_daily_hours": 8, "length_of_unpaid_breaks": "1 hour", "length_of_paid_breaks": "30 minutes", "salary_amount": 70000},
+        {"date": "12-01-2025", "ingoing_time": "09:09 AM", "outgoing_time": "05:09 PM", "average_daily_hours": 8, "length_of_unpaid_breaks": "1 hour", "length_of_paid_breaks": "30 minutes", "salary_amount": 70000},
+        {"date": "13-01-2025", "ingoing_time": "09:11 AM", "outgoing_time": "05:11 PM", "average_daily_hours": 8, "length_of_unpaid_breaks": "1 hour", "length_of_paid_breaks": "30 minutes", "salary_amount": 70000},
+        {"date": "14-01-2025", "ingoing_time": "09:10 AM", "outgoing_time": "05:10 PM", "average_daily_hours": 8, "length_of_unpaid_breaks": "1 hour", "length_of_paid_breaks": "30 minutes", "salary_amount": 70000},
+        {"date": "15-01-2025", "ingoing_time": "09:05 AM", "outgoing_time": "05:05 PM", "average_daily_hours": 8, "length_of_unpaid_breaks": "1 hour", "length_of_paid_breaks": "30 minutes", "salary_amount": 70000},
+        {"date": "16-01-2025", "ingoing_time": "09:04 AM", "outgoing_time": "05:04 PM", "average_daily_hours": 8, "length_of_unpaid_breaks": "1 hour", "length_of_paid_breaks": "30 minutes", "salary_amount": 70000},
+        {"date": "17-01-2025", "ingoing_time": "09:13 AM", "outgoing_time": "05:13 PM", "average_daily_hours": 8, "length_of_unpaid_breaks": "1 hour", "length_of_paid_breaks": "30 minutes", "salary_amount": 70000},
+        {"date": "18-01-2025", "ingoing_time": "09:14 AM", "outgoing_time": "05:14 PM", "average_daily_hours": 8, "length_of_unpaid_breaks": "1 hour", "length_of_paid_breaks": "30 minutes", "salary_amount": 70000},
+        {"date": "19-01-2025", "ingoing_time": "09:07 AM", "outgoing_time": "05:07 PM", "average_daily_hours": 8, "length_of_unpaid_breaks": "1 hour", "length_of_paid_breaks": "30 minutes", "salary_amount": 70000},
+        {"date": "20-01-2025", "ingoing_time": "09:11 AM", "outgoing_time": "05:11 PM", "average_daily_hours": 8, "length_of_unpaid_breaks": "1 hour", "length_of_paid_breaks": "30 minutes", "salary_amount": 70000}
+      ],
+      "contract_position": {
+        "change_of_position": "Senior Software Engineer"
+      },
+      "employee_performance": {
+        "attendance": "95%",
+        "punctuality": "90%",
+        "performance": "Exceeds Expectations",
+        "areas_of_concern": "None"
+      },
+      "earnings_and_deductions": {
+        "earnings": {
+          "allowances": 2000,
+          "salary": 70000,
+          "overtime": 5000,
+          "paid_breaks": 1000,
+          "bonus": 3000,
+          "total": 81000
+        },
+        "deductions": {
+          "epf_contribution": 12000,
+          "tax": 15000,
+          "tds": 2000
+        }
+      }
+    }
+  }
+  

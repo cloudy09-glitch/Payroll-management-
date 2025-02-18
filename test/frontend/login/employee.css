@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    background: #FFABAB;
+    padding: 20px;
+}
+
+.Ename {
+    font-size: 5vw; 
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: left;
+    margin-left: 30px;
+    font-size: 2vw; 
+    margin-top: 10px;
+    text-align: center;
+}
+
+p strong {
+    font-size: 2.2vw;
+    padding-right: 10px;
+}
+
+h3 {
+    font-size: 4vw; 
+    margin: 50px;
+}
+
+div {
+    border-bottom: solid 2px black;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 20px;
+}
+
+img {
+    width: 200px;
+    justify-content: right;
+}
+
+.attendanceData{
+    font-size: 20px;
+    text-align: center;
+}
+
+.name-photo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .Ename {
+        font-size: 8vw; 
+        text-align: center;
+    }
+
+    p {
+        font-size: 4vw; 
+        margin-left: 0;
+    }
+
+    h3 {
+        font-size: 6vw; 
+        margin: 20px;
+    }
+
+    img {
+        width: 40vw;
+    }
+
+    .name-photo {
+        flex-direction: column; 
+        align-items: center;
+    }
+}
+
+.green {
+    transition: background-color 10s ease-out, opacity 1s ease-out;
+    
+    opacity: 0;
+    background-color: transparent;
+}
+
+.green-then {
+    opacity: 1;
+    background-color: green;
+}
+
+
+h4 {
+    font-size: 35px;
+    margin-left: 70px;
+}

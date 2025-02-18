@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    
+        --primary-color: #695CEF;
+        --secondary-color: #ebabff;
+        --soft-lavender: #D1C7FF;
+        --blush-pink: #F2D7D7;
+        --mint-green: #A4E8C2;
+        --pastel-yellow: #FFF6A6;
+    
+    
+}
+
+
+body {
+    background-color: var(--soft-lavender);
+    
+}
+
+
+
+.background-img{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-position: center; /* Center the background image */
+}
+
+    
+
+
+.name-header {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(135deg, #695CEF, #FFABAB);
+
+    margin-top: 0px;
+    padding: 10px 0px;
+    flex-direction: row;
+
+}
+
+.name-header  img {
+   height: 40px;
+   align-items: center;
+   margin-top: 4px;
+   margin-left: 10px;
+}
+
+.name-header header {
+    text-align:justify;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 5px 10px ;
+
+
+}
+.nav_link{
+    list-style: none;
+}
+
+.nav_link li{
+    display: inline-block;
+    padding: 0px 20px;
+    justify-content: right;
+
+}
+
+.nav_link li a{
+    transition: all 0.3s ease 0s;
+    text-decoration: underline;
+    text-decoration: none;
+    size: 18px;
+    margin-left: 4px;
+
+}
+
+.nav_link li :hover{
+    color:#090634;
+    text-decoration:underline;
+}
+
+.nav_link li img{
+    width: 18px;
+    align-items: center;
+    padding-bottom: -4px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     /* Full viewport height */
+    margin: 0; /* Remove default margin */
+  } 
+.card {
+  
+    width: 600px;
+    height: auto;
+    background: rgba(255, 255, 255, 0.2); /* Add some transparency */
+    backdrop-filter: blur(10px); /* Adjust the blur radius as needed */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+  }
+
+  .type-user {
+    display: flex;
+    justify-content: space-between; 
+
+    width: 100%;
+    padding-bottom: 4px;
+    border-bottom: #090634 solid 1px;
+    margin-top: 5px;
+  }
+
+  .type-user p {
+    margin: 0 10px; 
+    flex: 1; 
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    
+  } 
+
+  .type-user p:hover{
+    background:rgba(209, 199, 255 , 0.2); /* Add some transparency */
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease 0s; 
+    text-decoration: underline;
+  }
+
+.login-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-info header{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+
+
+.pass{
+    margin-bottom: 30px;
+}
+
+.login-part {
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+
+
+}
+
+.login-part input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-part input::placeholder{
+    color: #fff;
+   
+}
+
+
+
+.login-part i{
+    position: absolute;
+    right: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    size: 20px;
+    
+}
+
+.login-info button{
+    margin: 20px 220px;
+    font-size: 20px;
+    background-color: #9a47e3;
+    opacity: 1;
+    border-radius: 20px;
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds shadow effect */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.login-info button:hover {
+    background-color: #7b3fb2; /* Changes background color on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Deepens shadow on hover */
+    transform: translateY(-5px); /* Slight lift effect on hover */
+    animation: hoverAnimation 0.6s infinite; /* Complex animation */
+}
